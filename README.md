@@ -17,7 +17,7 @@ A movie engine which provides a search option where you can get the details of a
     <li>Trending movie</li>
     
   </ol>
---- 
+
 ### Netlify Link
 
 https://dapper-salamander-a3a7f5.netlify.app
