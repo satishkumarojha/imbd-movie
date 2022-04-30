@@ -10,7 +10,6 @@ A movie engine which provides a search option where you can get the details of a
 
 ---
 
----
 <h3>Features:<h3/>
   <ol>
     <li>Search movie</li>
