@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imbd</title>
+    <link rel="stylesheet" href="/css/index.css">
+    
+</head>
+<body>
+    <div id="container">
+       <a href="/trending.html"><h1>Click here to watch all trending movies</h1></a> 
+        <h1>Search the movie you want</h1>
+        <div class="search_box">
+            <input type="text" id="search" placeholder="Enter movie name" value="" oninput="debounce(getmovies,1000)">
+            <!-- <button>Search</button> -->
+        </div>
+        <div id="wraper">
+            <!-- <div class="movie_box">
+
+            </div> -->
+
+        </div>
+
+        <div id="single_movie">
+
+        </div>
+    </div>
+</body>
+</html>
+<script src="/javascript/index.js"></script>

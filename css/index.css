@@ -1,0 +1,102 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/6dea7743-5586-45d1-89a2-9569b1bb0340/b8bbb6c3-80f1-4648-8527-521bd3bd8781/IN-en-20220207-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+            background-size: cover;
+
+        }
+        #container>h1{
+            color: white;
+            text-transform: capitalize;
+            text-align: center;
+            font-size: 50px;
+        }
+        .search_box{
+            width: 20%;
+            margin: auto;
+        }
+        input{
+            width: 100%;
+        }
+        #wraper{
+            width: 20%;
+            margin: auto;
+            /* border: 1px solid red; */
+        }
+        .movie_box{
+            margin-top: 20px;
+            width: 100%;
+            height: 300px;
+            background-color: gray;
+            display: flex;
+            flex-wrap: wrap;
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+        .combine{
+            display: flex;
+        }
+        .left{
+            width: 40%;
+            /* margin-top: 8px; */
+            margin-bottom: 5px;
+        }
+        .left>img{
+            width: 100%;
+            height: 100%;
+        }
+        .right{
+            width: 60%;
+            /* margin-top: 5px; */
+            color: white;
+            padding-top: 20px;
+            margin-bottom: 5px;
+        }
+        #single_movie{
+            width: 30%;
+            height: 150px;
+            margin: auto;
+            margin-top: 20px;
+            /* border: 1px solid red; */
+        }
+        #combine_box{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            /* background-color: gray; */
+        }
+        .poster_div{
+            width: 30%;
+            margin-right: 3%;
+        }
+        .poster_div>img{
+            width: 100%;
+            height: 100%;
+        }
+        .text_div{
+            width: 60%;
+            padding-top: 20px;
+            color: white;
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+        #err_div{
+            width: 50%;
+            margin: auto;
+            margin-top: 20px;
+        }
+        #err_div>img{
+            width: 100%;
+            height: 100%;
+        }
+        #container>a{
+            text-decoration: none;
+            color: red;
+            text-align: center;
+        }
+        
+ 
